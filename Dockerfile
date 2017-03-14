@@ -3,7 +3,9 @@ FROM ubuntu
 RUN apt-get -y update
 RUN apt-get install -y software-properties-common python curl \
   build-essential git gunicorn python-pip libmysqlclient-dev \
-  libffi-dev libssl-dev
+  libffi-dev libssl-dev libxml2 libxml2-dev libxslt1-dev \
+  python-dev
+
 
 ADD requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
