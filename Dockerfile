@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get -y update
-RUN apt-get install -y software-properties-common python curl build-essential git python-gunicorn
+RUN apt-get install -y software-properties-common python curl build-essential git gunicorn
 
 # nodejs
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash
