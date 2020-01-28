@@ -32,7 +32,7 @@ elasticsearch==1.6.0
 enum34==1.1.6
 Fabric==1.8.2
 Facebook==0.0
-feedgen==0.4.0
+feedgen==0.9.0
 feedparser==5.2.1
 filechunkio==1.6
 Flask==0.10.1
